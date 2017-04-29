@@ -1,0 +1,30 @@
+.navBar{
+  background-color: #222224;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Calibri;
+}
+
+.navBar ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.navBar ul li{
+  padding: 5px;
+  margin: 10px;
+  background-color: #ee1515;
+  border-radius: 5%
+
+}
+
+.navBar ul li input{
+  padding: 5px;
+  border: 0px;
+}
+
+.searchButton{
+  background-color: #ee1515;
+  color: #ffffff
+}
