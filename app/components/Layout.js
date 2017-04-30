@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { connect } from "react-redux";
-import * as layoutStyles from "./css/layout.css";
+import * as layoutStyles from "./styles/layout.scss";
 import PokemonList from "./PokemonList";
 import NavBar from "./NavBar";
 

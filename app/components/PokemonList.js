@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { connect } from "react-redux";
 import PokemonCard from "./PokemonCard";
 import {getAllPokemon} from "../actions/pokemonList";
-import * as pokemonListStyles from "./css/pokemonList.css"
+import * as pokemonListStyles from "./styles/pokemonList.scss"
 
 @connect((store) => {
   return {

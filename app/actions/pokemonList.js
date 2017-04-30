@@ -1,13 +1,11 @@
 import axios from "axios";
 
 export function getAllPokemon(){
-    console.log("in getAllPokemon Action")
     return function (dispatch){
       dispatch({type : "FETCH_ALL_POKEMON_START"})
       axios.get("https://pokeapi.co/api/v1/pokedex/")
       .then(function(response){
           var result = response.data.objects[0].pokemon;
-          console.log(result)
           dispatch({type : "FETCH_ALL_POKEMON_DONE",payload : result});
       })
       .catch(function(error){

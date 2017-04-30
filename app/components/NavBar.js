@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as headerStyles from "./css/navBar.css";
+import * as headerStyles from "./styles/navBar.scss";
 
 export default class PokemonCard extends React.Component{
 
